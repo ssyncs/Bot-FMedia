@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const {PREFIX} = require("../config.js");
-
 module.exports = async(client, message) => {
 
     if (message.author.bot) return;
