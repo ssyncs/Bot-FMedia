@@ -1,6 +1,6 @@
 const discord = require("discord.js");
 const {PREFIX} = require("../config.js");
-const token = process.env.token;
+
 module.exports.run = (client, message, args) => {
         message.delete();
         
